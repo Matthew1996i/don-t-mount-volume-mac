@@ -27,10 +27,10 @@
 8. Enter the following line, substituting the UUID you copied in step 5). (Note: vifs uses the value of the EDITOR environment variable to pick the text editor to use. This article assumes you are using the default value of vim. In vim, starts in command mode. To add a new line, move to the end of the document, and press the o key to append a new line and enter edit mode. Then type the following and press the return key.):
 
 ```bash
-  UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none hfs rw,noauto
+  UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none ntfs rw,noauto
 ```
 
-9. Type escape to return to command mode and then type ZZ to save and exit vifs (or some other method to save and exit if you are using something other than vim.
+9. Type escape to return to command mode and then type :wq to save and exit vifs (or some other method to save and exit if you are using something other than vim.
 
 10. Type the following and press enter to reset the auto mounter:
 
